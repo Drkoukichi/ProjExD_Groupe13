@@ -651,7 +651,7 @@ def main():
                     with open("score.json", "r") as f:
                         hi_score = json.load(f)
                         world_hi_score = get_cloud_hi_score(cred)
-                        world_hi_score = 9999
+                        #world_hi_score = 9999
 
                         if world_hi_score < score.value:
                             with open("score.json","w") as f:
